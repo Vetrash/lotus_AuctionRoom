@@ -1,0 +1,53 @@
+@import './theme.scss';
+
+.table_conteiner {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+.head td {
+  color: $collorTitle;
+  padding: 20px 0;
+  font-weight: 500;
+  border-bottom: 2px solid $collorBorder;
+}
+
+.timer-row td{
+  color: $collorTitle;
+  font-weight:500;
+}
+
+.align_left {
+  text-align: left;
+  max-width: 30%;
+  width: 100%;
+}
+
+.body tr:nth-child(2n + 1) {
+  background: $collorUnEvenRow;
+}
+
+.price-blue {
+  color: $collorTitle;
+  font-weight: 500;
+}
+
+.price-red {
+  color: $collorAlert;
+  font-weight: 500;
+}
+
+.price-green {
+  color: $collorGood;
+  font-weight: 500;
+}

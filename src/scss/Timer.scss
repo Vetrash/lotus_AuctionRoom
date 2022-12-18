@@ -1,0 +1,10 @@
+@import './theme.scss';
+
+.timer {
+  font-weight: bolder;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+  background: $collorBackAlert;
+  color: $collorAlert;
+}

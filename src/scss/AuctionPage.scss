@@ -1,0 +1,22 @@
+@import './theme.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  border-bottom: 2px solid $collorBorder;
+  padding: 20px 10px;
+  font-size: 1.7em;
+  color: $collorAlert;
+}
+
+.info {
+  background: $collorBackAlert;
+  padding: 5px;
+  color: $collorAlert;
+  margin-top: 20px;
+  width: max-content;
+}
